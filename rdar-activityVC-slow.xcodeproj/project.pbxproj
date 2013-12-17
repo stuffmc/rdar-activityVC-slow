@@ -55,6 +55,7 @@
 		4C9D2F781860C1F000A3F343 /* rdar-activityVC-slowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rdar-activityVC-slowTests-Info.plist"; sourceTree = "<group>"; };
 		4C9D2F7A1860C1F000A3F343 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C9D2F7C1860C1F000A3F343 /* rdar_activityVC_slowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rdar_activityVC_slowTests.m; sourceTree = "<group>"; };
+		4CF820081860C481004727DB /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 		4C9D2F421860C1F000A3F343 = {
 			isa = PBXGroup;
 			children = (
+				4CF820081860C481004727DB /* Readme.md */,
 				4C9D2F541860C1F000A3F343 /* rdar-activityVC-slow */,
 				4C9D2F761860C1F000A3F343 /* rdar-activityVC-slowTests */,
 				4C9D2F4D1860C1F000A3F343 /* Frameworks */,
@@ -395,6 +397,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rdar-activityVC-slow/rdar-activityVC-slow-Prefix.pch";
 				INFOPLIST_FILE = "rdar-activityVC-slow/rdar-activityVC-slow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,6 +411,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rdar-activityVC-slow/rdar-activityVC-slow-Prefix.pch";
 				INFOPLIST_FILE = "rdar-activityVC-slow/rdar-activityVC-slow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -474,6 +478,7 @@
 				4C9D2F821860C1F000A3F343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C9D2F831860C1F000A3F343 /* Build configuration list for PBXNativeTarget "rdar-activityVC-slowTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +487,7 @@
 				4C9D2F851860C1F000A3F343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
